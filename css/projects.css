@@ -1,0 +1,302 @@
+.gallery-projects {
+	position: relative;
+	width: 100vw;
+	min-height: 100vh;
+	
+	overflow: hidden;
+	background-color: #dcdfe2;
+	margin-bottom: -3rem;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	font-size: 30px;
+}
+
+.cards-projects {
+	
+	position: absolute;
+	width: 25vw;
+	height: 25vw;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.cards-projects li {
+	cursor: pointer;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 25vw;
+	height: 25vw;
+	text-align: center;
+	line-height: 18rem;
+	font-size: 2rem;
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	/*box-shadow:  0 12vh 5vh 2px rgba(0, 0, 0, 0.3);*/
+}
+
+@media screen and (max-width: 1040px) {
+	
+	.cards-projects li {
+	height: 21rem;
+	width: 21rem;
+	}
+	.cards-projects {
+		height: 21rem;
+		width: 21rem;
+	}
+
+	.scroll-text {
+		font-size: 1.8rem;
+	}
+
+	.info-gallery h2 {
+		font-size: 2.2vw !important;
+
+	}
+	.info-gallery h1 {
+		font-size: 3.2vw !important;
+		
+	}
+
+}
+
+
+@media screen and (max-width: 767px) {
+	.cards-projects li {
+		height: 20rem;
+		width: 20rem;
+	}
+	.cards-projects {
+		height: 20rem;
+		width: 20rem;
+	}
+	.circles-container {
+		margin-bottom: 10vh !important;
+	}
+
+	.scroll-text {
+		font-size: 1.5rem;
+	}
+
+	.info-gallery h2 {
+		font-size: 0.9rem !important;
+
+	}
+	.info-gallery h1 {
+		font-size: 1.5rem !important;
+		
+	}
+	.price {
+		font-size: 1.5rem !important;
+	}
+
+}
+
+@media screen and (max-height:479px) {
+	.cards-projects li {
+		height: 17rem;
+		width: 17rem;
+	}
+	.cards-projects {
+		height: 17rem;
+		width: 17rem;
+	}
+	.scroll-downs {
+		visibility: hidden;
+	}
+
+}
+
+@media screen and (max-width: 479px) {
+	.cards-projects li {
+		height: 20rem;
+		width: 20rem;
+	}
+	.cards-projects {
+		height: 20rem;
+		width: 20rem;
+	}
+	.circles-container {
+		margin-bottom: 13vh !important;
+	}
+
+	.scroll-text {
+		font-size: 1rem;
+	}
+
+	.scroll-downs {
+		margin-bottom: 12vh !important;
+	}
+
+	.title-gallery {
+		padding: 3vh !important;
+	}
+
+	.info-gallery h2 {
+		line-height: 1.2 !important;
+		font-size: 1.2rem !important;
+
+	}
+	.info-gallery h1 {
+		line-height: 1 !important;
+		font-size: 1.9rem !important;
+		
+	}
+	.price {
+		font-size: 1.9 !important;
+	}
+}
+
+.project-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* Cambiado a cover para mantener el aspect ratio */
+	border-radius: 2.2rem;
+	overflow: hidden;
+}
+
+
+.card-shadow {
+	height: 80px;
+	width: 100%;	
+	align-self: center;
+	box-shadow: 0 6.5em 1.5em 2px rgba(0, 0, 0, 0.3);
+	margin-top:-10em;
+	border-radius: 55px 55px;
+	}
+
+.price {
+	height: auto;
+	font-size: 3.5vh;
+	position:relative;
+	line-height: 1.6;
+	overflow: visible;
+	margin-top:20px;
+	font-family: 'LouisGeorgeCafeBold', sans-serif;
+	font-weight: 600;
+	color: #162d57;
+}
+
+.title-gallery {
+	font-size: 1.9rem;
+	margin: 0;
+	line-height: 1;
+	position: relative;
+	color: #162d57;
+	font-family: 'LouisGeorgeCafeBold', sans-serif;
+	font-weight: bold;
+	text-align: left;
+	padding: 2vw;
+	
+}
+
+.info-gallery h2 {
+	font-size: 1.4vw;
+	color: #ffffff;
+	margin: 0;
+	line-height: 1.5;
+	position: relative;
+	color: #162d57;
+	font-family: 'LouisGeorgeCafe', sans-serif;
+	font-weight: 400;
+}
+.info-gallery h1 {
+	font-size: 2.2vw;
+	color: #ffffff;
+	margin: 0;
+	line-height: 1.4;
+	position: relative;
+	color: #162d57;
+	font-family: 'LouisGeorgeCafeBold', sans-serif;
+	font-weight: bold;
+	
+}
+
+
+.circles-container {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	align-items: center;
+	left: 50%;
+	transform: translateX(-50%);
+	gap: 4px;
+	margin-bottom: 1.5em;
+}
+  
+.circle {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #5e6673;
+	
+}
+
+.scroll-text {
+
+	color :#162d57;
+}
+
+.scroll-downs {
+	display: flex;
+	justify-content: center;
+	gap: 1vw;
+	margin-bottom: 3vw;
+	
+ }
+ .mousey {
+   width: 3px;
+   padding: 5px 10px;
+   height: 25px;
+   border: 2px solid #162d57;
+   border-radius: 15px;
+   opacity: 0.85;
+   box-sizing: content-box;
+ }
+ .scroller {
+   width: 3px;
+   height: 10px;
+   border-radius: 25%;
+   background-color: #162d57;
+   animation-name: scroll;
+   animation-duration: 2.2s;
+   animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+   animation-iteration-count: infinite;
+ }
+ @keyframes scroll {
+   0% { opacity: 0; }
+   10% { transform: translateY(0); opacity: 1; }
+   100% { transform: translateY(15px); opacity: 0;}
+ }
+
+@font-face {
+    font-family: 'LouisGeorgeCafeBold';
+    src: url('../fonts/LouisGeorgeCafe-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style:normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LouisGeorgeCafe';
+    src: url('../fonts/LouisGeorgeCafe-Normal.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LouisGeorgeCafeLight';
+    src: url('../fonts/LouisGeorgeCafe-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

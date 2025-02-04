@@ -1,0 +1,63 @@
+.btn[data-v-09dbdc33] {
+  color: #162d57;
+  cursor: pointer;
+  display: flex;
+  gap: calc(16 / var(--vw) * var(--multiplier));
+  line-height: 0.8;
+  padding: 1em;
+  position: relative;
+}
+
+.btn:hover .btn-svg .btn-stroke-static[data-v-09dbdc33] {
+  stroke-dashoffset: -1;
+  transition-delay: 0s;
+}
+
+.btn:hover .btn-svg .btn-main-stroke[data-v-09dbdc33] {
+  stroke-dashoffset: 0;
+  transition-delay: 0.2s;
+}
+
+.btn .btn-svg[data-v-09dbdc33] {
+  height: 100%;
+  left: 0;
+  overflow: visible !important;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.btn .btn-svg .btn-main-stroke[data-v-09dbdc33] {
+  stroke-linecap: square !important;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  stroke-width: 1px !important;
+}
+
+.btn .btn-svg .btn-stroke-hover[data-v-09dbdc33],
+.btn .btn-svg .btn-stroke-static[data-v-09dbdc33] {
+  transition: stroke-dashoffset 0.8s cubic-bezier(0.24, 0.43, 0.15, 0.97);
+  transition-delay: 0.3s;
+  stroke: #162d57;
+}
+
+.btn .btn-svg .btn-stroke-static[data-v-09dbdc33] {
+  opacity: 0.5;
+  stroke-dashoffset: 0;
+}
+
+.btn .btn-svg .btn-stroke-hover[data-v-09dbdc33] {
+  stroke-dashoffset: 1;
+  z-index: 1;
+}
+
+.btn .icon[data-v-09dbdc33] {
+  flex-shrink: 0;
+  height: auto;
+  width: calc(10 / var(--vw) * var(--multiplier));
+}
+
+.btn .icon path[data-v-09dbdc33] {
+  fill: #162d57;
+  transition: fill 0.3s cubic-bezier(0.24, 0.43, 0.15, 0.97);
+}
