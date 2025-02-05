@@ -5,7 +5,6 @@ var logo = document.querySelector('.logosvg');
 var heroLight = document.querySelector('.hero-light');
 var heroXtra = document.querySelector('#heroeXtra');
 
-////////////////////////////////////////////
 ScrollTrigger.normalizeScroll(false);
 
 ///////////////////RUTAS/////////////////////////
