@@ -7,7 +7,7 @@ var heroXtra = document.querySelector('#heroeXtra');
 
 ScrollTrigger.normalizeScroll(false);
 
-//////////////////////RUTAS///////////////////////////
+/////////////s//////RUTAS///////////////////////////
 document.getElementById('villaDonQuijote').addEventListener('click', function() {
   window.location.href = '/projects/Villa_Don_Quixote.html';
 });
