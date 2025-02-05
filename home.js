@@ -12,7 +12,7 @@ document.getElementById('villaDonQuijote').addEventListener('click', function() 
   window.location.href = '/projects/Villa_Don_Quixote.html';
 });
 document.getElementById('villaNelson').addEventListener('click', function() {
-  window.location.href = '/projects/Villa_Nelson2.html';
+  window.location.href = '/projects/Villa_Nelson252.html';
 });
 document.getElementById('villaAtlantico').addEventListener('click', function() {
   window.location.href = '/projects/Villa_Atlantico.html';
