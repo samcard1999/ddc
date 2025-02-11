@@ -236,14 +236,14 @@ a {
 }
 
 .hero {
-    background-color: var(--whitenot);
+
     background-image: radial-gradient(circle, #162d57, #162d57);
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     min-height: 500px;
-    display: flex;
     overflow: hidden
 }
 .main {
