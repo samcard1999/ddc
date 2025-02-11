@@ -830,7 +830,7 @@ a {
 
 @font-face {
     font-family: 'LouisGeorgeCafeBold';
-    src: url('../fonts/LouisGeorgeCafe-Bold.ttf') format('truetype');
+    src: url('/fonts/LouisGeorgeCafe-Normal.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -838,7 +838,7 @@ a {
 
 @font-face {
     font-family: 'LouisGeorgeCafeNormal';
-    src: url('../fonts/LouisGeorgeCafe-Normal.ttf') format('truetype');
+    src: url('/fonts/LouisGeorgeCafe-Bold.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -846,7 +846,7 @@ a {
 
 @font-face {
     font-family: 'LouisGeorgeCafeLight';
-    src: url('../fonts/LouisGeorgeCafe-Light.ttf') format('truetype');
+    src: url('/fonts/LouisGeorgeCafe-Light.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -854,7 +854,7 @@ a {
 
 @font-face {
   font-family: 'LouisGeorgeCafe';
-  src: url('../fonts/LouisGeorgeCafe-Normal.ttf') format('truetype');
+  src: url('/fonts/LouisGeorgeCafe-Normal.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
