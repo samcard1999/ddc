@@ -1039,8 +1039,9 @@ a {
   user-select: none;
 }
 
-#menuToggle a
+#menuToggle a, button
 {
+  background-color: transparent;
   text-decoration: none;
   color: #070F1D;
   transition: color 0.3s ease;
@@ -1050,6 +1051,12 @@ a {
 {
   color: rgb(35, 93, 160);
 }
+
+#menuToggle button:hover
+{
+  color: rgb(35, 93, 160);
+}
+
 
 #menuToggle input
 {
@@ -1426,7 +1433,7 @@ a {
   strong {
     font-weight: bolder;
   }
-  button,
+
   input {
     font-family: inherit;
     font-feature-settings: inherit;
@@ -1441,12 +1448,7 @@ a {
   button {
     text-transform: none;
   }
-  button,
-  [type="button"] {
-    -webkit-appearance: button;
-    background-color: transparent;
-    background-image: none;
-  }
+
   progress {
     vertical-align: baseline;
   }
